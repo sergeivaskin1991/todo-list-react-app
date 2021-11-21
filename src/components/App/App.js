@@ -5,6 +5,7 @@ import SearchPanel from '../SearchPanel';
 import TodoList from '../TodoList';
 import ItemStatusFilter from '../ItemStatusFilter';
 import ItemAddForm from '../ItemAddForm/ItemAddForm';
+import Footer from '../Footer/Footer';
 
 import './App.css';
 
@@ -133,6 +134,7 @@ export default class App extends Component {
 					: <h4 className="label-no-text">No ToDo List</h4>
 				}
 				<ItemAddForm onItemAdded={this.addItem} />
+				<Footer />
 			</div>
 		);
 	}
