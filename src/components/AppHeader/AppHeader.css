@@ -1,0 +1,26 @@
+@font-face {
+  src: url(../../fonts/sumana.woff) format('woff');
+  font-family: 'Sumana';
+}
+
+.app-header {
+  align-items: flex-end;
+}
+  
+.app-header h1 {
+  flex-grow: 1;
+  font-family: 'Sumana';
+}
+  
+.app-header h2 {
+  font-size: 1.2rem;
+  color: grey;
+  font-family: 'Sumana';
+}
+.app-header__logo {
+  margin: auto;
+}
+.app-header__block {
+  display: flex;
+  flex-direction: column;
+}

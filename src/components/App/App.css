@@ -1,0 +1,15 @@
+.todo-app {
+    margin: 2rem auto 0 auto;
+    max-width: 400px;
+  }
+    
+  .top-panel {
+    margin: 1rem 0;
+  }
+  .label-no-text {
+    text-align: center;
+  }
+  .root {
+    background-color: rgb(243, 242, 242);
+  }
+  
